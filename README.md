@@ -119,6 +119,105 @@ LIMIT 25;
 
 ---
 
+## Results & Visualizations
+
+### Query 1 — Top 10 highest paying remote Data Analyst roles
+![alt text](image.png)
+
+| Rank | Company | Avg Yearly Salary |
+|------|---------|-------------------|
+| 1 | Mantys | $650,000 |
+| 2 | Meta | $336,500 |
+| 3 | AT&T | $255,830 |
+| 4 | Pinterest | $232,423 |
+| 5 | UCLA Health | $217,000 |
+| 6 | SmithRx | $213,000 |
+| 7 | Uber | $200,000 |
+| 8 | Motional | $189,309 |
+| 9 | EPAM Systems | $185,000 |
+| 10 | UCLA Health Careers | $179,000 |
+
+> The salary range is wide — from $179K to $650K — showing that seniority, specialization, and company size significantly impact compensation.
+
+---
+
+### Query 2 — Skills required in top 10 highest paying jobs
+![alt text](image-1.png)
+
+| Skill | Appearances | Category |
+|-------|-------------|----------|
+| SQL | 8 | Core |
+| Python | 7 | Core |
+| Tableau | 6 | Core |
+| R | 4 | Core |
+| Snowflake | 3 | Cloud |
+| PySpark | 2 | Big Data |
+| Databricks | 2 | Big Data |
+| Jupyter | 2 | Big Data |
+| Hadoop | 2 | Big Data |
+| PowerPoint | 2 | Reporting |
+
+> SQL, Python, and Tableau dominate. Cloud and big data tools appear less often but in the very highest-paying roles.
+
+---
+
+### Query 3 — Most in-demand skills for Data Analysts in India
+![alt text](image-2.png)
+
+| Rank | Skill | Demand Count |
+|------|-------|--------------|
+| 1 | SQL | 2,561 |
+| 2 | Python | 1,731 |
+| 3 | Excel | 1,471 |
+| 4 | Tableau | 1,085 |
+| 5 | Power BI | 944 |
+
+> SQL is the undisputed #1 skill in the Indian job market. Excel still holds strong at #3, showing that foundational tools remain critical locally.
+
+---
+
+### Query 4 — Top paying skills (remote roles, avg salary)
+![alt text](image-3.png)
+
+| Rank | Skill | Avg Yearly Salary |
+|------|-------|-------------------|
+| 1 | PySpark | $208,172 |
+| 2 | Bitbucket | $189,155 |
+| 3 | Couchbase | $160,515 |
+| 4 | Watson | $160,515 |
+| 5 | DataRobot | $155,486 |
+| 6 | GitLab | $154,500 |
+| 7 | Swift | $153,750 |
+| 8 | Jupyter | $152,777 |
+| 9 | Pandas | $151,821 |
+| 10 | Elasticsearch | $145,000 |
+| 11 | Golang | $145,000 |
+| 12 | NumPy | $143,513 |
+
+> Niche big data and DevOps-adjacent skills like PySpark, Bitbucket, and Couchbase command the highest salaries — often because few analysts have them.
+
+---
+
+### Query 5 — Most optimal skills (high demand + high pay)
+![alt text](image-4.png)
+
+| Skill | Demand Count | Avg Salary | Category |
+|-------|-------------|------------|----------|
+| Go | 27 | $115,320 | Programming |
+| BigQuery | 13 | $109,654 | Cloud |
+| Snowflake | 37 | $112,948 | Cloud |
+| Python | 236 | $101,397 | Programming |
+| SQL | 398 | $97,237 | Programming |
+| Tableau | 230 | $99,288 | BI / Viz |
+| Azure | 34 | $105,400 | Cloud |
+| AWS | 32 | $106,440 | Cloud |
+| R | 148 | $100,499 | Programming |
+| Power BI | 110 | $97,431 | BI / Viz |
+
+> The sweet spot: SQL and Python offer massive demand with solid salaries. Cloud tools (Snowflake, AWS, Azure, BigQuery) offer higher pay with moderate demand — excellent for differentiation.
+
+---
+
 ## What I Learned
 
 - **CTEs make complex queries readable** — Breaking multi-step analysis into named CTEs (`WITH` clauses) keeps logic clean and debuggable.
